@@ -1,0 +1,39 @@
+.container{
+    width: 150px;
+    height: 450px;
+    border: lightgray 1px solid;
+}
+.box{
+    width: 150px;
+    height:150px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.box:hover{
+    cursor: pointer;
+}
+#box1{
+    background-color: sienna;
+    transition: width 2s ease-out;
+}
+#box1:hover{
+    width: 300px;
+    background-color: aqua;
+}
+.box-height{
+    background-color:goldenrod;
+    transition: height 2s ease-in;
+}
+.box-height:hover{
+    height: 300px;
+}
+.box-width-height{
+    background-color:silver;
+    transition: 2s ease-out;
+}
+.box-width-height:hover{
+    height: 300px;
+    width: 300px;
+    background-color:goldenrod;
+}
