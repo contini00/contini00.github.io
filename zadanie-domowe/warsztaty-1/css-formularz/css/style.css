@@ -1,0 +1,24 @@
+form{
+    background-color: #213b50;
+    color: white;
+    padding: 30px;
+    width: 700px;
+}
+form select,form input[type="text"],form input[type="email"],form input[type="tel"],form textarea {
+    background-color:#2b4a64;
+    border:#2b4a64;
+    width: 250px;
+    height: 25px;
+}
+form select:focus,form input:focus,form textarea:focus{
+    background-color: #4e708c;
+    color:#ffffff;
+    border :#ffffff 1px solid;
+}
+form textarea{
+    height:100px;
+}
+form input[type="submit"]{
+    background-color: green;
+    style: round;
+}
