@@ -1,0 +1,129 @@
+
+nav{
+    background-color: lightgray;
+    position: sticky;
+    top: 5px;
+}
+.menu{
+    font-size: 20px;
+    display: inline;
+    margin: 10px;
+    padding: 10%;
+    text-align: center;
+}
+a.about-us{
+    color: black;
+}
+a.skills{
+    color: grey;
+}a.portfolio{
+    color: silver;
+}a.contact{
+    color: white;
+}
+#naglowek{
+    font-size: 30px;
+    text-align: center;
+}
+#about-us{
+    background-color: chocolate;
+    padding: 10%;
+    text-align: center;
+    transition: background-color 2s ease-in 1s;
+}
+#about-us:hover{
+    background-color: darkred
+}
+#artykul{
+    font-size: 20px;
+}
+#skills{
+    text-align: center;
+}
+.square{
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    display: inline-block;
+
+}
+  
+#square-1{
+    background-color: #FFB740;
+    transition-property: background-color;
+    transition-duration:4s;
+    transition-timing-function: ease-in;
+    transition-delay: 1s;
+}
+#square-1:hover{
+    background-color: #FF4B40;
+}
+#square-2{
+    background-color: #E8903A;
+    transition-property: background-color;
+    transition-duration: 3s;
+    transition-timing-function: ease-out;
+    transition-delay: 1s;
+
+}
+#square-2:hover{
+    background-color: indianred;
+}
+#square-3{
+    background-color: #FF8A4D;
+    transition-property: background-color;
+    transition-duration: 2s;
+    transition-timing-function: ease-in;
+    transition-delay: 1s;
+}
+#square-3:hover{
+    background-color: crimson;
+}
+#square-4{
+    background-color: #FF4B40;
+    transition: background-color 1s ease-out 1s;
+}
+#square-4:hover{
+    background-color: #FFB740;
+}
+
+.square-r{
+    height: 200px;
+    width: 200px;
+    border-style: solid;
+    border-width: 5px;
+    margin: auto;
+    border: 3px solid;
+    padding: 0px;
+}
+#square-5{
+    border-color: #FF4B40;
+}
+#square-6{
+    border-color: #FF8A4D;
+}
+#square-7{
+    border-color: #FFB740;
+}
+#contact{
+    text-align: center;
+}
+form select,form input[type="text"],form textarea {
+    background-color:#FFB740;
+    border:#FF8A4D;
+    width: 460px;
+    height: 35px;
+}
+form select:focus,form input:focus,form textarea:focus{
+    background-color:#FF8A4D;
+    border:#FF4B40 1px solid;
+}
+form input[type="submit"]{
+    background-color: coral;
+    border: #FF4B40 2px dotted;
+    height: 30px;
+    width: 120px;
+}
+section a{
+    color: black;
+}
