@@ -1,0 +1,15 @@
+#container{
+    background-color: grey;
+    color: white;
+    font-size: 12px;
+    height: 500px;
+    width: 200px;
+    padding: 5px;
+}
+.square{
+    height: 100px;
+    width: 100px;
+    background-color: orange;
+    margin: 5px;
+    
+}
