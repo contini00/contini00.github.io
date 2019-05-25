@@ -1,0 +1,29 @@
+#gallery {
+    width: 100%;
+    font-size: 0;
+}
+figcaption,h2,p {
+    font-size: 16px;
+}
+body {
+    margin: 0;
+}
+figure {
+    width: 100%;
+    
+}
+@media(min-width: 768px)  {
+    figure{
+        width: 50%;
+    }
+    body{
+        margin: 50px;
+    }
+}
+@media(min-width: 992px){
+    figure{
+        width: 33%;
+    }
+}
+    
+
