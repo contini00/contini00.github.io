@@ -1,13 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
+    <title>MOJE PORTFOLIO</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
     
+    <!-- normalize.css -->
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800&display=swap&subset=latin-ext"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
+    <!-- Css Style -->
+    <link rel="stylesheet" href="css/style.css">
+
+    
+
+    
+
+</head>
+
+<body>
+
+    <!-- nagłowki -->
+    <header id="header">
+        <div class="wrap">
+            <h1>front end developer
+                <hr>
+            </h1>
+            <p>html <span>&#183;</span> css <span>&#183;</span> javascript</p>
+            <a href="#o-mnie" class="btn">dowiedz sie wiecej</a>
+        </div>
+    </header>
+    <!-- end-header -->
+
+    <!-- navigacja -->
+    <nav id="menu">
+        <div id="nav">
+            <a href="#o-mnie">o mnie</a>
+            <a href="#portfolio">portfolio</a>
+            <a href="#contact">kontakt</a>
+        </div>
+    </nav>
+    <!-- end-navigacja -->
+
+    <!-- O mnie -->
+    <section id="o-mnie">
+        <h1>o mnie
+            <hr>
+        </h1>
+        <img src="img/about.jpg" alt="obrazek_o_mnie">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor impedit a atque corporis officia, repellendus
+            cupiditate deserunt placeat tempore debitis nobis est aperiam modi maxime magni. Consequuntur est quaerat
+            blanditiis.</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit ratione, mollitia quas voluptatum, non eum
+            quaerat aperiam sint, facere aspernatur consequatur. Exercitationem officiis voluptatum nesciunt voluptatem
+            nihil quia est temporibus.</p>
+        <a href="#portfolio" class="btn">MOJE PORTFOLIO</a>
+    </section>
+    <!-- end-o-mnie -->
+
+    <!-- portfolio -->
+    <section id="portfolio">
+        <h1>portfolio
+            <hr>
+        </h1>
+
+        <div>
+            <img src="img/portfolio/photo-1.jpg" alt="">
+            <div id="hover1" class="overlay">
+                <div class="text">Hello World</div>
+            </div>      
+            <img src="img/portfolio/photo-2.jpg" alt="">
+            <img src="img/portfolio/photo-3.jpg" alt="">
+            <img src="img/portfolio/photo-4.jpg" alt="">
+            <img src="img/portfolio/photo-5.jpg" alt="">
+            <img src="img/portfolio/photo-6.jpg" alt="">
+            <img src="img/portfolio/photo-7.jpg" alt="">
+            <img src="img/portfolio/photo-8.jpg" alt="">
+            <img src="img/portfolio/photo-9.jpg" alt="">
+            <img src="img/portfolio/photo-10.jpg" alt="">
+            <img src="img/portfolio/photo-11.jpg" alt="">
+            <img src="img/portfolio/photo-12.jpg" alt="">
+        </div>
+        <div id="obrazki_portfolio"></div>
+    </section>
+    <!-- end-portfolio -->
+
+    <!-- kontakt -->
+    <section id="contact">
+        <h1>kontakt
+            <hr>
+        </h1>
+        <div>
+            <form action="https://formspree.io/wojciechowskiwojciech00@gmail.com" method="POST">
+
+                <input type="text" name="username" id="username" placeholder="Imię">
+                <input type="text" name="usersurname" id="usersurname" placeholder="Nazwisko">
+
+                <textarea name="message" id="message" placeholder="Wiadomość"></textarea>
+
+                <a href="https://formspree.io/wojciechowskiwojciech00@gmail.com" class="btn">WYŚLIJ WIADOMOŚĆ</a>
+            </form>
+        </div>
+        <div id="icons">
+            <a href="http://facebook.com" target="_blank" class="sociallink"><i class="fab fa-facebook-square"></i></a>
+            <a href="http://youtube.com" target="_blank" class="sociallink"><i class="fab fa-youtube"></i></a>
+            <a href="http://youtube.com" target="_blank" class="sociallink"><i class="fab fa-instagram"></i></a>
+            <a href="http://youtube.com" target="_blank" class="sociallink"><i class="fab fa-twitter"></i></a>
+        </div>
+    </section>
+
+    <!-- end-kontakt -->
+
+    <!-- stopka -->
+    <footer id="stopka">
+        <p>Copyright &copy; Wojciechowski Wojciech</p>
+    </footer>
+    <!-- stopka -->
 </body>
+
 </html>
