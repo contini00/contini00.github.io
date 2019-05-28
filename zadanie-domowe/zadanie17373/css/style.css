@@ -1,0 +1,19 @@
+body{ 
+    text-align: center;
+}
+form{ 
+    display: flex;
+    flex-direction: column;
+    margin: auto auto;
+    width: 20vw;
+}
+input{
+    width: 100%;
+}
+
+input#gender{
+    width: auto;
+}
+input#agreement{
+    width: auto;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formularz zgłoszeniowy</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Formularz zgłoszeniowy</h1>
+    </header>
+    <form action="https://formspree.io/wojciechowskiwojciech00@gmail.com" method="POST">
+        <label for="username">Imię:
+            <input type="text" name="username" id="username" placeholder="Imię">
+        </label>
+        <br><br>
+        <label for="surname">Nazwisko 
+            <input type="text" name="surname" id="surname" placeholder="Nazwisko">
+        </label>
+        <br><br>
+        <label for="email">Email
+            <input type="text" name="email" id="email">
+        </label>
+        <br><br>
+        <label for="number">Telefon
+            <input type="number" name="number" id="number" placeholder="Numer Telefonu">
+        </label>
+        <br><br>
+        <label for="city">Miasto</label>
+        <select name="city"> Miasto
+            <option value="Warszawa">Warszawa</option>
+            <option value="Kraków">Kraków</option>
+            <option value="Kielce">Kielce</option>
+        </select>
+        
+        <br><br>
+        <label for="gender">Płeć
+            <input type="radio" name="gender" id="gender">Mężczyzna
+            <input type="radio" name="gender" id="gender">Kobieta
+        </label>
+        
+        <br><br>
+        <label for="agreement">Zgoda na przetwarzanie danych
+            <input type="checkbox" name="agreement" id="agreement">
+        </label>
+        <br><br>
+        <textarea name="message" id="message" placeholder="Napisz Wiadomość"></textarea>
+        
+        <br><br>
+        <input type="submit" value="Wyslij">
+    </form>
+</body>
+</html>
