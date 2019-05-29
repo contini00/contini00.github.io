@@ -1,0 +1,55 @@
+body{
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    margin: 0;
+    text-align: center;
+    color: #000;
+}
+text{
+    width:100%;
+}
+#man-1{
+    height: 100%;
+    width: 100%;
+}
+#man-2{
+    display: none;
+}
+
+@media (min-width:992px) and (max-width:1170px){
+    header{
+        display: flex;
+    }
+    #man-1{
+        display: none;
+    }
+    #man-2{
+        display:block;
+        width: 100%;
+        height: 70%;
+    }
+    #text{
+        position: absolute;
+        right: 5vw;
+        top: 5vh;
+        color: #fff;
+    }
+}
+@media (min-width:1170px){
+    header{
+        display: flex;
+    }
+    #man-1{
+        display: block;
+        height: 100%;
+    }
+    #man-2{
+        display:none;
+    }
+    #text{
+        position: absolute;
+        align-self: center;
+        justify-self: right;
+        color: #fff;
+    }
+}
