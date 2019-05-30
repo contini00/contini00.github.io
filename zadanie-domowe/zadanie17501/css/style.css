@@ -16,7 +16,7 @@
 .number{
     position: absolute;
     opacity: 0;
-    animation: countdown 11s linear infinite;
+    animation: countdown 12s linear infinite;
 }
 .container:nth-child(1){
     animation-delay: 0s;
