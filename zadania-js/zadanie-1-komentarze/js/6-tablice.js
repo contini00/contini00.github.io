@@ -63,3 +63,8 @@ let zbiór2 = [...miasta, ...panstwa, ... zbior];
 
 console.log(zbiór2);
 console.log(zbiór2.sort());
+
+//ussuwanie ze srodka tablicy
+
+miasta.splice(1,0, 'Kraków', 'Sopot');
+console.log(miasta);
