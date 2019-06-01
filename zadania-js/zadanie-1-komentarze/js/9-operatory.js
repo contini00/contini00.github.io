@@ -26,3 +26,29 @@ console.log(wynik2);
  }else {
      console.log('Nie  kurwa')
  }
+
+ //operatory logiczne
+
+ let fileExist = true;
+ let fileSize = 85;
+
+ //negacja
+ console.log(fileExist, !fileExist);
+
+ if(fileExist ==true || fileSize <= 50) {
+     console.log('Mozesz ładować');
+ }else{
+     console.log('Nie istnieje albo jest za duzy');
+ }
+
+ let color1 = 'red';
+ let color2 = 'yellow';
+
+ if(color1 ==  'yellow' || color2 == 'yellow'){
+     console.log(404);
+ }else {
+     console.log('MAM CIĘ')
+ }
+
+ let wynik10 = (color1 == 'blue') ? 144 : 'kolor jest inny';
+ console.log(wynik10);
