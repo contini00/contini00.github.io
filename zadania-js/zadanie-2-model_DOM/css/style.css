@@ -6,3 +6,8 @@
 .header{
     transition: all .4s ease-in-out 1s;
 }
+.body-decor{
+    color: sienna;
+    font-size: 20px;
+    background-color: darkgoldenrod;
+}
