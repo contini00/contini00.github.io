@@ -1,0 +1,26 @@
+.square{
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    background-color: red;
+    display: flex;
+    position: absolute;
+}
+
+#end{
+    color: #fff;
+    text-align: center;
+    margin: auto;
+    font-size: 100%;
+}
+
+#btn{
+    width: 200px;
+    margin: 20px;
+}
+
+.square2 {
+    position: absolute;
+    background-color: blue;
+    transition: 5s ease-in-out;
+}
