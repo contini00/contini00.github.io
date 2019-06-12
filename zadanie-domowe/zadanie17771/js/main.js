@@ -3,12 +3,12 @@ $(function () {
 let btn = $('#btn');
 
 btn.click(function() {
-    console.log('działa');
+    
+    $('.div hr:last').remove();
+    
     fetch('https://akademia108.pl/kurs-front-end/ajax/1-pobierz-dane-programisty.php')
 .then(response => response.json())
 .then(response=>{
-
-    console.log(response)
 
     let div = document.createElement('div');
 
@@ -28,9 +28,10 @@ btn.click(function() {
     let textP4 = document.createTextNode(`Firma: ${response.firma}`);
 
     document.body.appendChild(div);
-    
-    div.appendChild(linia);
+    $('div').addClass('div');
 
+    div.appendChild(linia);
+    
     div.appendChild(paragraf1);
     paragraf1.appendChild(textP);
 
@@ -44,6 +45,8 @@ btn.click(function() {
     paragraf4.appendChild(textP4);
 
     div.appendChild(linia2);
+
+    
 });
 
 });
