@@ -29,6 +29,7 @@ btn.click(function() {
 
     document.body.appendChild(div);
     $('div').addClass('div');
+    $('div').attr('id', 'dane-programisty');
 
     div.appendChild(linia);
     
