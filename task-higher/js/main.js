@@ -1,36 +1,37 @@
-
-let photo = document.querySelector('#img');
-
 let btn = document.querySelector('button');
 
 let container = document.querySelector('#container');
 
-let zdjecia = ['https://images.pexels.com/photos/1123401/pexels-photo-1123401.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940', 'https://images.pexels.com/photos/1123401/pexels-photo-1123401.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940', 'https://images.pexels.com/photos/1123401/pexels-photo-1123401.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940']
+let num = 1; 
 
-let num = 0; 
-let Photos = () =>{
-    console.log('nastepne')
-    fetch('https://picsum.photos/v2/list')
+let addPhotos = () =>{
+    fetch(`https://picsum.photos/v2/list?page=${num}&limit=3`)
     .then(response =>response.json())
     .then(response=>{
         
-        for (let i = 0; i < response.length; i++){
-            if(i == num) break;
-            else{
-                let img = document.createElement('img');
-                container.appendChild(img);
-                img.setAttribute('class', 'photo');
-                img.setAttribute("src",`${response[i].url}`);
-                num +=1;
-            }
+        for (let i = 0; i < 3; i++){
+            let img = document.createElement('img');
+            container.appendChild(img);
+            img.setAttribute('class', 'photo');
+            img.setAttribute("src",`${response[i].download_url}`);
+            num += 1;
         }
-
     });
 
 }
 
-console.log(num);
-Photos();
+let removePhotos = () =>{
+    for (let i = 0; i < 3; i++){
+    let img = document.querySelector('.photo');
 
+    img.remove()
+    }
+};
+addPhotos();
+
+let buttonFunction = () => {
+    removePhotos();
+    addPhotos();
+}
 /* button to render next images */
-btn.addEventListener('click', Photos);
+btn.addEventListener('click', buttonFunction);
