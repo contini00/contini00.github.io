@@ -1,11 +1,7 @@
-
-let photo = document.querySelector('#img');
-
 let btn = document.querySelector('button');
 
 let container = document.querySelector('#container');
 
-let zdjecia = ['https://images.pexels.com/photos/1123401/pexels-photo-1123401.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940', 'https://images.pexels.com/photos/1123401/pexels-photo-1123401.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940', 'https://images.pexels.com/photos/1123401/pexels-photo-1123401.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940']
 
 let num = 3; 
 let num2 = 0;
