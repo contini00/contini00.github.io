@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Warsztat Sass</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigacja -->
+    <header class="navigacja container-fluid">
+        <div class="row">
+            <div class="col-md-6 text-center">
+                <div class="row">
+                    <div class="col-md-6 text-right">
+                            <a href="#"><i class="fas fa-university"></i></a>
+                    </div>
+                    <div class="col-md-6 text-left"><h2>Finanse</h2></div>
+                </div>
+                
+            </div>
+            <div class="col-md-6 text-center ">
+                <a href="#" ><i id='tel-icon' class="fas fa-phone-alt"></i></a>
+            </div>
+            <div class="row">
+            <div class="col-md-6 text-center ">
+                    <div class="row">
+                        <div class="col-md-12 text-center">
+                            <p>Zadzoń do nas</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 text-center">
+                            <p id='tel'>+ 22 00 000 123</p>
+                        </div>
+                    </div> 
+            </div>       
+            </div>
+        </div>
+    </header>
+    <!-- sekcja -->
+    <section id="section" class="container-fluid">
+        <div class="container-fluid">
+            <!-- tekst -->
+            <div class="row">
+                <div class="col-md-8"></div>
+                <div class="col-md-4">
+                    <div class="row">
+                    <p>Zostaw <span>sprawy finansowe</span> nam <span>skup się na swoim biznesie</span></p>
+                    </div>
+                    <div class="row" id='form'>
+                        <p>Zostaw swoje dane, a my się z Tobą skontaktujemy</p>
+                        <form action="post">
+                            <input type="text" class="form-control" name='user' id="user" placeholder="Imię i nazwisko">
+                            <input type="text" class="form-control" name="email" id="email" placeholder="Email">
+                            <input type="text" class="form-control" name="tel" id="tel" placeholder="Telefon">
+                            <textarea type="text" class="form-control" name="wiadomosc" id="wiadomosc" placeholder="Wiadomość"></textarea>
+                            <input type="submit" class="form-control btn btn-warning" name="button" id="button" value="Wyślij">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> 
+    <footer id="footer">
+        <div class="container">
+            <div class="row" id="footer-icony">
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-12 text-center">
+                       <a href="#"><i class="fas fa-phone-square-alt"></i></a>
+                        </div> 
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <p class="text-center">+22 00 000 123</p>
+                        </div> 
+                    </div>
+                </div>
+                <div class="col-md-6">
+                        <div class="row">
+                            <div class="col-md-12 text-center">
+                                <a href="#"><i class="fas fa-envelope-square"></i></a> 
+                            </div> 
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                            <p class="text-center">myszkamoja@gmail.com</p>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+            <div class="row">
+                <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam quibusdam nihil non, totam, blanditiis molestias quo eos ullam unde veritatis aperiam iure facilis officia reiciendis quas, debitis nobis id distinctio.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/54243eebf5.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

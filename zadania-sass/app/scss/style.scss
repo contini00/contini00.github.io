@@ -1,0 +1,97 @@
+@import "zmienne";
+
+$base-color: rgb(211, 132, 12);
+
+body {
+    @include font;
+}
+.navigacja{
+    background-color: none;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    padding-top: 20px;
+    z-index: 1;
+
+}
+#section{
+    background-image: url(../img/background.png);
+    background-position: center center;
+    background-size: cover;
+    padding: 260px;
+    padding-bottom: 50px;
+}
+
+i {
+    @include icon;
+}
+
+
+h2 {
+    font-size: 2.2em;
+    font-weight: 700;
+}
+
+#tel-icon{
+    @include icon-white;
+}
+
+p {
+    @include paragraf-min;
+}
+
+#tel{
+    @include paragraf-bold;
+}
+
+#section{
+    p{
+        @include paragrafNadFormularzem;
+
+        span{
+            color: $font-color-orange;
+
+        }
+    }
+    
+}
+
+#form{
+    background: $font-color-blue;
+    padding: 15px;
+    p{
+        @include paragraf-bold;
+    }
+    form{
+        width: 100%;
+    
+        .form-control{
+            margin: 15px 0;
+            width: 100%;
+        }
+        #button{
+            width: 30%;
+        }
+    }
+}
+
+footer {
+    background-color: $font-color-grey;
+    padding: 40px;
+    #footer-icony{
+        a{
+            margin: auto;
+            i{
+                @include icon-big;
+                
+            }
+        }
+        p{
+            margin-bottom: 20px;
+        }
+    }
+}
+
+
+
+

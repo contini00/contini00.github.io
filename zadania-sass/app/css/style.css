@@ -1,0 +1,81 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  color: #fff; }
+
+.navigacja {
+  background-color: none;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  padding-top: 20px;
+  z-index: 1; }
+
+#section {
+  background-image: url(../img/background.png);
+  background-position: center center;
+  background-size: cover;
+  padding: 260px;
+  padding-bottom: 50px; }
+
+i {
+  color: #ecd407;
+  font-size: 2.2em;
+  margin: 0;
+  padding: 0; }
+
+h2 {
+  font-size: 2.2em;
+  font-weight: 700; }
+
+#tel-icon {
+  color: #fff;
+  font-size: 2.2em;
+  margin: 0;
+  padding: 0; }
+
+p {
+  font-size: 12px;
+  margin: 0;
+  padding: 0; }
+
+#tel {
+  font-size: 17px;
+  margin: 0;
+  padding: 0; }
+
+#section p {
+  font-size: 22px;
+  font-weight: 700;
+  padding-bottom: 20px; }
+  #section p span {
+    color: #ecd407; }
+
+#form {
+  background: rgba(0, 29, 138, 0.35);
+  padding: 15px; }
+  #form p {
+    font-size: 17px;
+    margin: 0;
+    padding: 0; }
+  #form form {
+    width: 100%; }
+    #form form .form-control {
+      margin: 15px 0;
+      width: 100%; }
+    #form form #button {
+      width: 30%; }
+
+footer {
+  background-color: #292929;
+  padding: 40px; }
+  footer #footer-icony a {
+    margin: auto; }
+    footer #footer-icony a i {
+      color: #ecd407;
+      font-size: 2.6em;
+      margin: 0;
+      padding-bottom: 5px;
+      display: inline-block; }
+  footer #footer-icony p {
+    margin-bottom: 20px; }
