@@ -1,0 +1,26 @@
+body{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    width: 100%;
+    text-align: center;
+}
+#container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+}
+.photo{
+    height: 33%;
+    width: 33%;
+    margin: 1px;
+}
+button{
+    background-color: rgba(223, 155, 28, 0.2);
+    margin: 20px 0;
+    width: 100%;
+    border: dashed grey 1px;
+}
