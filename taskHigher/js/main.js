@@ -10,8 +10,13 @@ let addPhotos = () =>{
     .then(response=>{
         
         for (let i = 0; i < 3; i++){
+            let article = document.createElement('article');
             let img = document.createElement('img');
-            container.appendChild(img);
+
+            container.appendChild(article);
+            article.setAttribute('class', 'box')
+
+            article.appendChild(img);
             img.setAttribute('class', 'photo');
             img.setAttribute("src",`${response[i].download_url}`);
             num += 1;
@@ -22,9 +27,11 @@ let addPhotos = () =>{
 
 let removePhotos = () =>{
     for (let i = 0; i < 3; i++){
+    let article = document.querySelector('.box');
     let img = document.querySelector('.photo');
-
-    img.remove()
+    
+    article.remove();
+    img.remove();
     }
 };
 addPhotos();

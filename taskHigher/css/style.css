@@ -13,14 +13,21 @@ h1{
     flex-direction: row;
     align-content: space-around;
 }
-.photo{
-    height: 33%;
-    width: 33%;
+.box{
+    height: 45vh;
     margin: 1px;
+    overflow: hidden;
+    flex-grow: 1;
+    justify-content: center;
+    display: flex;
+}
+.photo{
+    height: 100%;
+    width: auto;     
 }
 button{
-    background-color: rgba(223, 155, 28, 0.2);
+    background-color: rgba(128, 128, 128, 0.1);
     margin: 20px 0;
     width: 100%;
-    border: dashed grey 1px;
+    border: dashed rgba(128, 128, 128, 0.4) 1px;
 }
