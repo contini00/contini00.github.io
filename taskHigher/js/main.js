@@ -25,19 +25,19 @@ let addPhotos = () =>{
 
 }
 
-let removePhotos = () =>{
-    for (let i = 0; i < 3; i++){
-    let article = document.querySelector('.box');
-    let img = document.querySelector('.photo');
+// let removePhotos = () =>{
+//     for (let i = 0; i < 3; i++){
+//     let article = document.querySelector('.box');
+//     let img = document.querySelector('.photo');
     
-    article.remove();
-    img.remove();
-    }
-};
+//     article.remove();
+//     img.remove();
+//     }
+// };
 addPhotos();
 
 let buttonFunction = () => {
-    removePhotos();
+    // removePhotos();
     addPhotos();
 }
 /* button to render next images */
