@@ -1,20 +1,28 @@
 body {
 	font-family: 'Raleway', sans-serif;
 }
+@keyframes resize3{
+    50% {
+        transform: scale(1.5, 1.5);
+        color: rgba(245, 46, 11, 0.4); 
+    }
+}
 h1{
     margin-top: 50px;
     color: rgba(22, 22, 22, 0.25);
+    animation: resize3 3s ease-in-out 7s;
 }
 hr{
     width: 150px;
     margin: 20px auto;
+    animation: resize 5s ease-in-out 5s;
 }
 @keyframes resize{
     0%, 100% {
     }
     50%{
-        width: 100%;
-        border: black solid;
+        width: 80%;
+        background-color: rgba(245, 46, 11, 0.4);
     }
 }
 hr:hover{
@@ -22,6 +30,12 @@ hr:hover{
 }
 a:hover{
     color: transparent;
+}
+@keyframes resize2{
+    50% {
+        transform: scale(1.2, 1.2);
+        background-color: rgba(245, 46, 11, 0.4); 
+    }
 }
 .circle{
     background-color: rgba(22, 22, 22, 0.03);
@@ -32,9 +46,12 @@ a:hover{
     align-items: center;
     transition: all 2s ease-in;
     margin-top: 30px;
+    animation: resize2 5s ease-in-out;
 }
 .circle:hover{
     background-color: rgba(22, 22, 22, 0.09);
+    
+    animation: resize 5s infinite;
 
 }
 i{
