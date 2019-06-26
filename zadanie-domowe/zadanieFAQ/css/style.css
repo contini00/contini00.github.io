@@ -22,3 +22,6 @@ hr {
     border-right: black dashed 1px;
     padding: 20px;
 }
+.last {
+    border-bottom: black dashed 1px;
+}
